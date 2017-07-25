@@ -1,3 +1,4 @@
+<?php 
 add_action( 'wp_ajax_clax_admin_sidebar', 'sa_clax_admin_sidebar' );
 add_action( 'wp_ajax_nopriv_clax_admin_sidebar', 'sa_clax_admin_sidebar' );
 /**
@@ -21,3 +22,4 @@ function sa_clax_admin_sidebar() {
     wp_die();
  
 }
+?>
